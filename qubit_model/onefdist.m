@@ -88,18 +88,3 @@ xlim([1 10])
 ylabel('Occurrence')
 title('Distribution function of relaxation rates $p(\gamma)$ according to stackoverflow','Interpreter','latex')
 
-% figure(1)
-% h = plot(K(1:end),M(1:end),'-',K(1:end),E(1:end),'-');
-% %h = histogram(nM);
-% xlabel('MC steps','Interpreter','latex')
-% ylabel('energy')
-% %title('GAS density 0.1 temperture 1')
-% legend('Vref','Esum/imcs','location','best')
-% print -dpdf energy
-% 
-% figure(2)
-% h = plot(O(1:end),N(1:end),'-');
-% %h = histogram(nM);
-% xlim([-6 6])
-% xlabel('x','Interpreter','latex')
-% ylabel('psi(x)')

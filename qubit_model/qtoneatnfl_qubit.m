@@ -1,4 +1,12 @@
-function qtoneatnfl_qubit
+function qtoneatnfl_qubit(tf, ntraj, nd, dec, bmean, bvariance)
+% tf = 1e-8;
+% ntraj = 1000;
+% nd = 10;
+% dec = 1;
+% bmean = 0.5*4e8; %need to divide by two to get to the qubit version
+% bvariance = (0.2*bmean)^2;
+
+
 % % Define Pauli matrices
 %rng('shuffle')
 sX = [0 1; 1 0];
@@ -17,16 +25,10 @@ psi0 = sparse(plus);
 rho0 = psi0*psi0';
 hbar = 1;
 
-
-tf = 1e-8;
-
-
 B = 0;
 tic
 % Quantum trajectory by using waiting time distribution
 
-
-ntraj = 1000;
 
 Tmatrix = cell(1,ntraj);
 Mxmatrix = cell(1,ntraj);
@@ -37,9 +39,6 @@ Bbmatrix = cell(1,ntraj);
 psimatrix = cell(1,ntraj);
 fidelitymatrix = cell(1,ntraj);
 
-
-
-
 dlm = dlmread('DW2000_parameters.txt');
 %dlm = dlmread('DW1_parameters.txt');
 slist = dlm(:,1).';
@@ -47,21 +46,6 @@ A_s = dlm(:,2).';
 B_s = dlm(:,3).';
 A_sp1 = @(s)interp1(slist,A_s,s);
 B_sp1 = @(s)interp1(slist,B_s,s);
-
-
-%{
-nd = 1000;
-dec = 12;
-bmean = 0.5*9.2e7; %need to divide by two to get to the qubit version
-bvariance = (0.2*bmean)^2;
-%}
-
-nd = 10;
-% dec = 2;
-dec = 1;
-bmean = 0.5*4e8; %need to divide by two to get to the qubit version
-bvariance = (0.2*bmean)^2;
-
 
 for n = 1:ntraj
     b = bmean + sqrt(bvariance)*randn(1, nd*dec);
@@ -77,14 +61,12 @@ for n = 1:ntraj
     gammalist = 10.^(K);
     length(gammalist)
     gamma = sum(gammalist);    
-    
-    
+   
     Bb = B + sum(b);
     T = 0;
     M0 = [1;0;0];
     M = M0.';    
 
-    
     Q = -log( r(1) ) / ( gamma/2 );
     tstep = [0 Q];
     if Q > tf
@@ -101,8 +83,7 @@ for n = 1:ntraj
        Mx1 = psi1(:,1).*conj(psi1(:,2)) + conj(psi1(:,1)).*psi1(:,2);
        My1 = 1i*psi1(:,1).*conj(psi1(:,2)) - 1i*conj(psi1(:,1)).*psi1(:,2);
        Mz1 = psi1(:,1).*conj(psi1(:,1)) - psi1(:,2).*conj(psi1(:,2));
-      
-       
+
        M1 = [Mx1 My1 Mz1];
 
        M0 = M1(end,:).';
@@ -120,11 +101,9 @@ for n = 1:ntraj
        k = find( condition, 1, 'first' );
        %flip 
        b(k) = -b(k);
-       
-       
+  
        %b = -b;
-       
-      
+
        r = rand([1 2]); % Draw new random numbers   
        T = [T;T1(2:end)];
        M = [M;M1(2:end,:)];
@@ -158,8 +137,6 @@ for n = 1:ntraj
     Bbmatrix{n} = Bb(1,:);
     psimatrix{n} = psi;
     
-    
-
     fidelitylist = zeros(1, length(T));
     for jj = 1:length(T) 
         Hs = sX_1;
@@ -184,9 +161,6 @@ for n = 1:ntraj
     fidelitymatrix{n} = fidelitylist;
    
 end
-
-
-
 
 Tmatrix{1}
 Mymatrix{1};
@@ -229,20 +203,13 @@ mpmatrix_mean = mpmatrix_mean./ntraj;
 Bbmatrix_mean = Bbmatrix_mean./ntraj;
 fidelitymatrix_mean =  fidelitymatrix_mean./ntraj;
 
-
-
-
 env = abs(hilbert(Mxmatrix_mean));            % Calculate Envelope
 pf = polyfit(Ti, log(env), 1); 
 
 toc
 
 
-
-
-
 figure(8)
-%plot(Tmatrix{1},M(:,i),'-')
 h2 =  plot(Ti*1e9,fidelitymatrix_mean,'-','LineWidth',2)
 set(h2(1), 'color','blue');
 ax = ancestor(h2, 'axes');
