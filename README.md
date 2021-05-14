@@ -10,4 +10,4 @@ Simulation codes for quantum 1/f noise process, and its resulting dynamics with 
 
 :green_heart: transmon_circuit 
 
-:blue_heart:: blue_heart:ibm_crosstalk
+:blue_heart: :blue_heart: ibm_crosstalk
