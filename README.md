@@ -1,6 +1,6 @@
 # 1/f noise
 
-Simulation codes for quantum 1/f noise process in annealing and superconducting circuits, and its resulting dynamics with or without dynamical decoupling. Codes included are:
+Simulation codes for quantum 1/f noise process in annealing and superconducting circuits. Codes included are:
 
 :eight_spoked_asterisk: spin_vector_model
 
@@ -8,7 +8,7 @@ Simulation codes for quantum 1/f noise process in annealing and superconducting 
 
 :eight_spoked_asterisk: CSFQ_circuit 
 
-:eight_spoked_asterisk: transmon_circuit 
+:eight_spoked_asterisk: transmon_circuit (with dynamical decoupling)
 
 :eight_spoked_asterisk: ibm_crosstalk
 
