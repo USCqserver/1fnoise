@@ -27,3 +27,4 @@ bmean: mean of fluctuator strength
 
 bvariance: variance of fluctuator strength 
 
+An annealing schedule of DWave NASA 2000Q is included.
