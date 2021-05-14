@@ -2,30 +2,30 @@
 
 Simulation codes for quantum 1/f noise process in annealing and superconducting circuits. Codes included are:
 
-:large_blue_diamond: spin_vector_model
+:white_check_mark: spin_vector_model
 
-:large_blue_diamond: qubit_model
+:white_check_mark: qubit_model
 
-:large_blue_diamond: CSFQ_circuit 
+:white_check_mark: CSFQ_circuit 
 
-:large_blue_diamond: transmon_circuit (with dynamical decoupling)
+:white_check_mark: transmon_circuit (with dynamical decoupling)
 
-:large_blue_diamond: ibm_crosstalk
+:white_check_mark: ibm_crosstalk
 
 
 ### Input parameters:
 
-:white_check_mark: tf = total anneal time
+- tf = total anneal time
 
-:white_check_mark: ntraj = number of trajectories
+- ntraj = number of trajectories
 
-:white_check_mark: nd = number of fluctuators per noise decade
+- nd = number of fluctuators per noise decade
 
-:white_check_mark: dec = number of noise decade
+- dec = number of noise decade
 
-:white_check_mark: bmean = mean of fluctuator strength
+- bmean = mean of fluctuator strength
 
-:white_check_mark: bvariance = variance of fluctuator strength 
+- bvariance = variance of fluctuator strength 
 
 An annealing schedule of DWave NASA 2000Q is included. For CSFQ circuit, the default circuit parameter values (i_c, c_shunt, alpha, amp, ...) are in the scurve paper [[1]](#1).
 
