@@ -1,6 +1,6 @@
 # 1/f noise
 
-Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits.\ 
+Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits.\  
 The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/blob/master/Kawa_Yip_thesis.pdf). Codes included are:
 
 :white_check_mark: spin_vector_model
