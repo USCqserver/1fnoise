@@ -2,15 +2,15 @@
 
 Simulation codes for quantum 1/f noise process in annealing and superconducting circuits. Codes included are:
 
-:eight_spoked_asterisk: spin_vector_model
+:large_blue_diamond: spin_vector_model
 
-:eight_spoked_asterisk: qubit_model
+:large_blue_diamond: qubit_model
 
-:eight_spoked_asterisk: CSFQ_circuit 
+:large_blue_diamond: CSFQ_circuit 
 
-:eight_spoked_asterisk: transmon_circuit (with dynamical decoupling)
+:large_blue_diamond: transmon_circuit (with dynamical decoupling)
 
-:eight_spoked_asterisk: ibm_crosstalk
+:large_blue_diamond: ibm_crosstalk
 
 
 ### Input parameters:
