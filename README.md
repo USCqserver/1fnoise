@@ -28,7 +28,7 @@ The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/
 
 - bvariance = variance of fluctuator strength 
 
-An annealing schedule of DWave NASA 2000Q is included. For CSFQ circuit, the default circuit parameter values (i_c, c_shunt, alpha, amp, ...) are in the scurve paper [[1]](#1).
+A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default circuit parameter values (i_c, c_shunt, alpha, amp, ...) are in the scurve paper [[1]](#1).
 
 ## References
 <a id="1">[1]</a> 
