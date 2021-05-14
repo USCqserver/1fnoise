@@ -304,7 +304,7 @@ hbar = 1;
 b;
 Hs = 1e9*(1/2).*sX.*((-1)+t./tf)+ 1e9*(-1/2).*sZ.*t./tf;
 
-H_eff = Hs + sZ.*(b/2);s%b(3) for stochastic b-field in z-axis
+H_eff = Hs + sZ.*(b/2);%b(3) for stochastic b-field in z-axis
 psidot = -1i*hbar*H_eff*psi;
   
   
