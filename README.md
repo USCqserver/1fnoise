@@ -15,16 +15,16 @@ Simulation codes for quantum 1/f noise process, and its resulting dynamics with 
 
 Input parameters:
 
-tf: total anneal time
+:white_check_mark: tf: total anneal time
 
-ntraj: number of trajectories
+:white_check_mark: ntraj: number of trajectories
 
-nd: number of fluctuators per noise decade
+:white_check_mark: nd: number of fluctuators per noise decade
 
-dec: number of noise decade
+:white_check_mark: dec: number of noise decade
 
-bmean: mean of fluctuator strength
+:white_check_mark: bmean: mean of fluctuator strength
 
-bvariance: variance of fluctuator strength 
+:white_check_mark: bvariance: variance of fluctuator strength 
 
 An annealing schedule of DWave NASA 2000Q is included.
