@@ -13,7 +13,7 @@ Simulation codes for quantum 1/f noise process in annealing and superconducting 
 :eight_spoked_asterisk: ibm_crosstalk
 
 
-Input parameters:
+## Input parameters:
 
 :white_check_mark: tf = total anneal time
 
