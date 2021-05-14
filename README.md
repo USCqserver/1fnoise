@@ -6,6 +6,8 @@ Simulation codes for quantum 1/f noise process, and its resulting dynamics with 
 
 ->qubit_model
 
-->transmon_circuit (model)
+->CSFQ_circuit 
+
+->transmon_circuit 
 
 -->ibm_crosstalk
