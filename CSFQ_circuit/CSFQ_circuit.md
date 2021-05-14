@@ -1,4 +1,4 @@
-The default circuit parameters are in the scurve paper [[1]](#1).
+The default circuit parameters (i_c, c_shunt, alpha, amp, ...) are in the scurve paper [[1]](#1).
 
 
 ## References
