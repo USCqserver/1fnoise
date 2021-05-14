@@ -11,3 +11,13 @@ Simulation codes for quantum 1/f noise process, and its resulting dynamics with 
 :eight_spoked_asterisk: transmon_circuit 
 
 :large_blue_circle: :large_blue_circle: ibm_crosstalk
+
+
+Input parameters:
+tf: total anneal time
+ntraj: number of trajectories
+nd: number of fluctuators per noise decade
+dec: number of noise decade
+bmean: mean of fluctuator strength
+bvariance: variance of fluctuator strength 
+
