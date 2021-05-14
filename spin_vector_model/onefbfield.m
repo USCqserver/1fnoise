@@ -1,10 +1,10 @@
 %kawayip@usc.edu 
-function onefbfield
-tf = 1e-9;
+function onefbfield(tf, ntraj, nd, dec, bmean, bvariance)
+%tf = 1e-9;
 B = 0;
 dt = tf / 10000;
 Tfixed = 0: dt: tf;
-ntraj = 2000;
+%ntraj = 2000;
 
 Mxmatrixsum = zeros(1, numel(Tfixed));
 Mymatrixsum = zeros(1, numel(Tfixed));
@@ -13,12 +13,12 @@ Mzmatrixsum = zeros(1, numel(Tfixed));
 mpmatrixsum = zeros(1, numel(Tfixed));
 Bbmatrixsum = zeros(1, numel(Tfixed));
 
-nd = 1000;
-dec = 12;
-bmean = 0.5*9.2e7;
-bvariance = (0.2*bmean)^2;
+%nd = 1000;
+%dec = 12;
+%bmean = 0.5*9.2e7;
+%bvariance = (0.2*bmean)^2;
 
-parfor n = 1 : ntraj
+for n = 1 : ntraj
     b = bmean + sqrt(bvariance)*randn(1, nd*dec);
     x = 2*(rand(1, nd*dec, 1)<=.54)-1;    %0.08 equilibrium
     b = b.*x;
