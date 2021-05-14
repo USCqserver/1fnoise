@@ -27,4 +27,9 @@ Input parameters:
 
 :white_check_mark: bvariance = variance of fluctuator strength 
 
-An annealing schedule of DWave NASA 2000Q is included.
+An annealing schedule of DWave NASA 2000Q is included. For CSFQ circuit, the default values of circuit parameters (i_c, c_shunt, alpha, amp, ...) are in the scurve paper [[1]](#1).
+
+## References
+<a id="1">[1]</a> 
+Khezri, M., Grover, J. A., Basham, J. I., Disseler, S. M., Chen, H., Novikov, S., ... & Lidar, D. A. (2021). Anneal-path correction in flux qubits. npj Quantum Information, 7(1), 1-8.
+
