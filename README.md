@@ -1,6 +1,6 @@
 # 1/f noise
 
-Simulation codes for quantum 1/f noise process, and its resulting dynamics with or without dynamical decoupling
+Simulation codes for quantum 1/f noise process in annealing and superconducting circuits, and its resulting dynamics with or without dynamical decoupling
 
 :eight_spoked_asterisk: spin_vector_model
 
