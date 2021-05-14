@@ -10,4 +10,4 @@ Simulation codes for quantum 1/f noise process, and its resulting dynamics with 
 
 :eight_spoked_asterisk: transmon_circuit 
 
-:blue_heart: :blue_heart: ibm_crosstalk
+:large_blue_circle: :large_blue_circle: ibm_crosstalk
