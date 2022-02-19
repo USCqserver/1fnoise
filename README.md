@@ -16,17 +16,17 @@ The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/
 
 ### Input parameters:
 
-- tf = total anneal time
+- `tf`: total anneal time
 
-- ntraj = number of trajectories
+- `ntraj`: number of trajectories
 
-- nd = number of fluctuators per noise decade
+- `nd`: number of fluctuators per noise decade
 
-- dec = number of noise decade
+- `dec`: number of noise decade
 
-- bmean = mean of fluctuator strength
+- `bmean`: mean of fluctuator strength
 
-- bvariance = variance of fluctuator strength 
+- `bvariance`: variance of fluctuator strength 
 
 A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default circuit parameter values (i_c, c_shunt, alpha, amp, ...) are in the scurve paper [[1]](#1). An AME quantum trajectories code of the CSFQ circuit is also included.
 
