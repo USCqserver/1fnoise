@@ -47,8 +47,8 @@ A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default
 
 ## Reference <a name="reference"></a>
 <a id="1">[1]</a> 
-Yip, K.W., 2021. 【Open-system modeling of quantum annealing: theory and applications】 (https://arxiv.org/pdf/2107.07231.pdf). arXiv preprint arXiv:2107.07231.
+Yip, K.W., 2021. [Open-system modeling of quantum annealing: theory and applications](https://arxiv.org/pdf/2107.07231.pdf). arXiv preprint arXiv:2107.07231.
 
 <a id="2">[2]</a> 
-Khezri, M., Grover, J. A., Basham, J. I., Disseler, S. M., Chen, H., Novikov, S., ... & Lidar, D. A. 2021. [Anneal-path correction in flux qubits]（https://arxiv.org/pdf/2002.11217.pdf）. npj Quantum Information, 7(1), 1-8.
+Khezri, M., Grover, J. A., Basham, J. I., Disseler, S. M., Chen, H., Novikov, S., ... & Lidar, D. A. 2021. [Anneal-path correction in flux qubits](https://arxiv.org/pdf/2002.11217.pdf）. npj Quantum Information, 7(1), 1-8.
 
