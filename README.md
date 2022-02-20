@@ -18,15 +18,15 @@ Simulation codes for time-dependent quantum 1/f noise process in annealing and s
 ## Code description <a name="codedescription"></a>
 Codes included are:
 
-:white_check_mark: spin_vector_model
+:white_check_mark: [spin_vector_model](https://github.com/USCqserver/1fnoise/tree/master/spin_vector_model)
 
-:white_check_mark: qubit_model
+:white_check_mark: [qubit_model](https://github.com/USCqserver/1fnoise/tree/master/qubit_model)
 
-:white_check_mark: CSFQ_circuit 
+:white_check_mark: [CSFQ_circuit](https://github.com/USCqserver/1fnoise/tree/master/CSFQ_circuit) 
 
-:white_check_mark: transmon_circuit (with dynamical decoupling)
+:white_check_mark: [transmon_circuit](https://github.com/USCqserver/1fnoise/tree/master/transmon_circuit) (with dynamical decoupling)
 
-:white_check_mark: ibm_crosstalk
+:white_check_mark: [ibm_crosstalk](https://github.com/USCqserver/1fnoise/tree/master/ibm_crosstalk)
 
 
 ## Input parameters <a name="inputparameters"></a>
