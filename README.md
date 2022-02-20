@@ -13,7 +13,7 @@
 4. [Reference](#reference)
 ---
 ## Introduction[![](./docs/img/pin.svg)](#introduction)
-Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits. The theory is in Chapter 2 of my [thesis](https://arxiv.org/pdf/2107.07231.pdf) [[1]](#1). 
+Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits. The theory is in Chapter 2 of my thesis [[1]](#1). 
 
 ## Code description <a name="codedescription"></a>
 Codes included are:
@@ -47,8 +47,8 @@ A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default
 
 ## Reference <a name="reference"></a>
 <a id="1">[1]</a> 
-Yip, K.W., 2021. Open-system modeling of quantum annealing: theory and applications. arXiv preprint arXiv:2107.07231.
+Yip, K.W., 2021. 【Open-system modeling of quantum annealing: theory and applications】 (https://arxiv.org/pdf/2107.07231.pdf). arXiv preprint arXiv:2107.07231.
 
 <a id="2">[2]</a> 
-Khezri, M., Grover, J. A., Basham, J. I., Disseler, S. M., Chen, H., Novikov, S., ... & Lidar, D. A. (2021). Anneal-path correction in flux qubits. npj Quantum Information, 7(1), 1-8.
+Khezri, M., Grover, J. A., Basham, J. I., Disseler, S. M., Chen, H., Novikov, S., ... & Lidar, D. A. 2021. [Anneal-path correction in flux qubits]（https://arxiv.org/pdf/2002.11217.pdf）. npj Quantum Information, 7(1), 1-8.
 
