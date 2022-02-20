@@ -28,7 +28,7 @@ The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/
 
 - `bvariance`: variance of fluctuator strength 
 
-A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default circuit parameter values (i_c, c_shunt, alpha, amp, ...) are in the scurve paper [[1]](#1). An AME quantum trajectories code of the CSFQ circuit is also included.
+A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default circuit parameter values (`i_c`, `c_shunt`, `alpha`, `amp`, ...) are in the scurve paper [[1]](#1). An AME quantum trajectories code of the CSFQ circuit is also included.
 
 ## References
 <a id="1">[1]</a> 
