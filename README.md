@@ -13,9 +13,10 @@
 4. [Reference](#reference)
 ---
 ## Introduction[![](./docs/img/pin.svg)](#introduction)
-Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits.<br /> 
+Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits. The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/blob/master/Kawa_Yip_thesis.pdf). 
 
-The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/blob/master/Kawa_Yip_thesis.pdf). Codes included are:
+## Code description: <a name="codedescription"></a>
+Codes included are:
 
 :white_check_mark: spin_vector_model
 
@@ -28,7 +29,7 @@ The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/
 :white_check_mark: ibm_crosstalk
 
 
-### Input parameters: <a name="inputparameters"></a>
+## Input parameters: <a name="inputparameters"></a>
 
 - `tf`: total anneal time
 
