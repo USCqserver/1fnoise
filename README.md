@@ -13,7 +13,7 @@
 4. [Reference](#reference)
 ---
 ## Introduction[![](./docs/img/pin.svg)](#introduction)
-Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits. The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/blob/master/Kawa_Yip_thesis.pdf). 
+Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits. The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/blob/master/Kawa_Yip_thesis.pdf) [[1]](#1). 
 
 ## Code description <a name="codedescription"></a>
 Codes included are:
@@ -43,9 +43,12 @@ Codes included are:
 
 - `bvariance`: variance of fluctuator strength 
 
-A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default circuit parameter values (`i_c`, `c_shunt`, `alpha`, `amp`, ...) are in the scurve paper [[1]](#1). An AME quantum trajectories code of the CSFQ circuit is also included.
+A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default circuit parameter values (`i_c`, `c_shunt`, `alpha`, `amp`, ...) are in the scurve paper [[2]](#2). An AME quantum trajectories code of the CSFQ circuit is also included.
 
 ## Reference <a name="reference"></a>
 <a id="1">[1]</a> 
+Khezri, M., Grover, J. A., Basham, J. I., Disseler, S. M., Chen, H., Novikov, S., ... & Lidar, D. A. (2021). Anneal-path correction in flux qubits. npj Quantum Information, 7(1), 1-8.
+
+<a id="2">[2]</a> 
 Khezri, M., Grover, J. A., Basham, J. I., Disseler, S. M., Chen, H., Novikov, S., ... & Lidar, D. A. (2021). Anneal-path correction in flux qubits. npj Quantum Information, 7(1), 1-8.
 
