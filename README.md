@@ -1,4 +1,11 @@
-# 1/f noise
+<h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
+<br><br><strong> 1/f noise</strong>
+</h1>
+
+![Latest release](https://img.shields.io/github/v/release/aregtech/areg-sdk?label=%20%F0%9F%93%A3%20Latest%20release&style=flat&logoColor=b0c0c0&labelColor=363D44)
+<img src="https://img.shields.io/badge/MATLAB-R2022a-BLUE.svg" alt="MATLAB solution"/>
+
+---
 
 Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits.<br /> 
 The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/blob/master/Kawa_Yip_thesis.pdf). Codes included are:
