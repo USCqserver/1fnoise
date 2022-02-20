@@ -6,8 +6,15 @@
 <img src="https://img.shields.io/badge/MATLAB-R2022a-BLUE.svg" alt="MATLAB solution"/>
 
 ---
-
+## Table of contents[![](./docs/img/pin.svg)](#table-of-contents)
+1. [Introduction](#introduction)
+2. [Code description](#codedescription)
+3. [Input parameters](#inputparameters)
+4. [Reference](#reference)
+---
+## Introduction[![](./docs/img/pin.svg)](#introduction)
 Simulation codes for time-dependent quantum 1/f noise process in annealing and superconducting circuits.<br /> 
+
 The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/blob/master/Kawa_Yip_thesis.pdf). Codes included are:
 
 :white_check_mark: spin_vector_model
@@ -21,7 +28,7 @@ The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/
 :white_check_mark: ibm_crosstalk
 
 
-### Input parameters:
+### Input parameters: <a name="inputparameters"></a>
 
 - `tf`: total anneal time
 
@@ -37,7 +44,7 @@ The theory is in Chapter 2 of my [thesis](https://github.com/USCqserver/1fnoise/
 
 A schedule of DW2X annealing schedule is included. For CSFQ circuit, the default circuit parameter values (`i_c`, `c_shunt`, `alpha`, `amp`, ...) are in the scurve paper [[1]](#1). An AME quantum trajectories code of the CSFQ circuit is also included.
 
-## References
+## Reference <a name="reference"></a>
 <a id="1">[1]</a> 
 Khezri, M., Grover, J. A., Basham, J. I., Disseler, S. M., Chen, H., Novikov, S., ... & Lidar, D. A. (2021). Anneal-path correction in flux qubits. npj Quantum Information, 7(1), 1-8.
 
